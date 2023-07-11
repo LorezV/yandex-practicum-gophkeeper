@@ -1,0 +1,16 @@
+app:
+  name: 'gophkeeper-client'
+  version: '1.0.0'
+
+server:
+  url: 'http://localhost:8080'
+
+logger:
+  log_level: 'debug'
+  rollbar_env: 'gophkeeper-client'
+
+sqlite:
+  sqlite_dsn: 'gophkeeper.sqlite'
+
+files_storage:
+  location: 'user_files'
