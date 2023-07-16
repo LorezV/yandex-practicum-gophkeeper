@@ -1,4 +1,4 @@
-### Генерация сертификатов
+### Сертификаты
 ```
 cp .env.sample .env
 make compose-up
